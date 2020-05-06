@@ -1,0 +1,90 @@
+.Main {
+  text-align: center;
+}
+
+.Main-form {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  padding: 100px;
+  border: 1px solid #D0021B;
+  border-radius: 4px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.Main-field {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  margin-right: 10px;
+}
+
+h5 {
+  color: #D0021B;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Main-box {
+  width: 250px;
+  padding: 6px 6px;
+  color: #D0021B;
+  font-size: 1.2em;
+  border: 3px solid #D0021B;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.Main-submit {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background: #D0021B;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  position: relative; 
+  top: 2px;
+}
+
+.Main-loader{
+  border: 16px solid #D0021B; 
+  border-top: 16px solid #4D92DF; 
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.Main-logo {
+  height: 120px;
+  padding-bottom: 10px;
+}
+
+.Divisor {
+  color: #D0021B;
+  background-color: #D0021B;
+  height: 5px;
+  padding: 0%;
+  vertical-align: top;
+}
+
+.noMargin {
+  margin: 0 !important;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
